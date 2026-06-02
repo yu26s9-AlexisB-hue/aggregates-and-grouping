@@ -1,3 +1,11 @@
 -- exersis 2
 use northwind;
--- select count(SupplierID) from suppliers
+-- select count(SupplierID) from suppliers;
+-- select sum(Salary) from employees;
+-- select min(unitPrice) from products;
+-- select avg(unitPrice) from products;
+-- select max(unitPrice) from products;
+-- select supplierID, quantityPerUnit from products;
+-- select categoryID, sum(unitPrice) as averagePrice from products group by CategoryID;
+-- select supplierID, count(*) as numberOfItems from products group by SupplierID having count(*) >= 5;
+-- select productID, productName, UnitPrice * unitsInStock as InventoryValue from products order by inventoryValue desc, ProductName asc;
